@@ -2,24 +2,60 @@
 <html lang="fr">
 
 <head>
-	<meta itemprop="streetAddress" content="68 avenue Alsace-Lorraine">
-	<meta itemprop="addressLocality" content="Bordeaux">
-	<meta itemprop="postalCode" content="33200">
-
-	<meta itemprop="telephone" content="05 56 67 78 89">
-
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Titre de votre page">
-	<meta property="og:description" content="Description de votre page">
-	<meta property="og:image" content="https://www.instagram.com/p/CeF4U4vICWw/?hl=fr">
-	<meta property="og:url" content="https://www.instagram.com/ninacarducci.photo/?hl=fr">
-
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nina Carducci</title>
 	<meta name="description"
 		content="Explorez l'univers captivant de Nina Carducci, photographe passionnée.
- 		Découvrez des instants figés dans le temps, des émotions immortalisées à travers des clichés uniques.
- 		Plongez dans un monde d'histoires visuelles, de moments intimes et de paysages enchanteurs, capturés avec une sensibilité artistique hors pair." />
+	Découvrez des instants figés dans le temps, des émotions immortalisées à travers des clichés uniques.
+	Plongez dans un monde d'histoires visuelles, de moments intimes et de paysages enchanteurs, capturés avec une sensibilité artistique hors pair." />
+
+	<!-- Open Graph (facebook) -->
+	<meta property="og:title" content="Nina Carducci - Photographe Professionnelle" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="https://modandahdouh.github.io/Projet-9-OC/assets/images/camera.webp" />
+	<meta property="og:url" content="https://modandahdouh.github.io/Projet-9-OC/" />
+	<meta property="og:description" content="Nina Carducci - Photographe professionnelle en Bordeaux" />
+	<meta property="og:site_name" content="Nina Carducci Photographe" />
+
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="https://modandahdouh.github.io/Projet-9-OC/assets/images/camera.webp" />
+	<meta name="twitter:site" content="https://modandahdouh.github.io/Projet-9-OC/" />
+	<meta name="twitter:title" content="Nina Carducci - Photographe Professionnelle" />
+	<meta name="twitter:description" content="Nina Carducci - Photographe professionnelle en Bordeaux" />
+	<meta name="twitter:image" content="https://modandahdouh.github.io/Projet-9-OC/assets/images/camera.webp" />
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci Photographe",
+			"description": "Services de photographie de haute qualité à Bordeaux",
+			"image": "https://modandahdouh.github.io/Projet-9-OC/assets/images/nina.webp",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"addressCountry": "FR"
+			},
+			"telephone": "05 56 67 78 89",
+			"openingHoursSpecification": [{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+				"opens": "10:00",
+				"closes": "19:00"
+			}],
+			"url": "https://modandahdouh.github.io/Projet-9-OC/",
+			"sameAs": [
+				"https://www.facebook.com/ninacarducci/",
+				"https://www.instagram.com/ninacarducci/"
+			]
+		}
+	</script>
+
+
+
+	<title>Nina Carducci</title>
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +63,6 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
-	<meta charset="UTF-8">
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
